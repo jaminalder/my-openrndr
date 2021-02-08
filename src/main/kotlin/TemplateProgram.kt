@@ -20,7 +20,7 @@ fun main() = application {
             drawer.drawStyle.colorMatrix = tint(ColorRGBa.WHITE.shade(0.2))
             drawer.image(image)
 
-            drawer.fill = ColorRGBa.PINK
+            drawer.fill = ColorRGBa.BLACK
             drawer.circle(cos(seconds) * width / 2.0 + width / 2.0, sin(0.5 * seconds) * height / 2.0 + height / 2.0, 140.0)
 
             drawer.fontMap = font
